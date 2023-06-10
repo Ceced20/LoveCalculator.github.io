@@ -41,9 +41,9 @@ function calculateLove() {
         const lovePercentage = Math.floor((count / name1.length) * 100);
 
         // Special cases
-        if (name1 === "matthew" && name2 === "jesslyn") {
+        if (name1 === "Jesslyn" && name2 === "Matthew") {
             resultEl.innerHTML = "100% Compatible!";
-        } else if (name1 === "angel" && name2 === "brandon") {
+        } else if (name1 === "jesslyn" && name2 === "matthew") {
             resultEl.innerHTML = "100% Compatible!";
 
         } else {
